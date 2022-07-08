@@ -9,6 +9,8 @@ body {
 	font-family: "Open Sans", Helvetica;
 	margin: 0;
 	position: relative;
+	height: 100vh;
+	overflow: hidden;
 }
 
 .logo img {
@@ -69,4 +71,12 @@ body {
 
 a {
 	text-decoration: none !important;
+}
+
+@media (max-width: 770px) {
+	body {
+		height: auto;
+		overflow: auto;
+		width: 100vw;
+	}
 }
